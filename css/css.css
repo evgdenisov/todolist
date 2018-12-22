@@ -5,7 +5,7 @@
 }
 
 body {
-
+    background: black;
 }
 
 .main {
@@ -13,46 +13,57 @@ body {
     text-align: center;
     width: 90%;
     margin: 5%;
-    border: 2px solid DeepSkyBlue;
-    background: grey;
-    border-radius: 15px;
-    box-shadow: 0.4em 0.4em 5px dimgray;
+    background: #151517;
 }
 .wrap {
     width: 40%;
     display: inline-block;
-    border: 2px solid DeepSkyBlue;
-    border-radius: 15px;
     margin-bottom: 5%;
     vertical-align: top;
-    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
 }
 .title {
     display: inline-block;
     width: 65%;
-    background: DeepSkyBlue;
-    border: 2px solid white;
-    border-radius: 15px;
-    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    color: #a77c4d;
+    border-bottom: 3px solid #a77c4d;
 }
 .list {
     display: inline-block;
     list-style-type: none;
     padding: 0;
-    border-radius: 15px;
     min-width: 80%;
 }
 .list li {
     display: inline-block;
     min-width: 60%;
-    border: 2px solid white;
+    border-bottom: 2px solid #a77c4d;
     width: 80%;
-    border-radius: 15px;
+}
+.todo .list li:hover {
+    cursor: pointer;
 }
 .todo li {
-    background: DodgerBlue;
+    color: #a77c4d;
 }
 
-.done li {
-    background: rgb(33, 33, 33);
+.done li, .done .title {
+    color: #574128;
+    border-bottom: 2px solid #574128;
+}
+
+.add-new {
+    height: 100%;
+    padding: 0px;
+    border: none;
+    color: #a77c4d;
+    border-bottom: 2px solid #a77c4d;
+    background: #151517;  
+}
+.add-new-btn {
+    border-bottom: 2px solid #a77c4d;
+    color: #a77c4d;
+    height: 100%;
+}
+.add-new-btn:hover {
+    cursor: pointer;
 }
