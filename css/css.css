@@ -25,6 +25,7 @@ body {
     display: inline-block;
     border-bottom: 2px solid #a77c4d;
     margin-bottom: 1%;
+    min-width: 21%;
 }
 
 .title {
@@ -58,6 +59,8 @@ body {
 }
 
 .add-new {
+    display: inline-block;
+    width: 81%;
     height: 100%;
     padding: 0px;
     border: none;
@@ -65,6 +68,8 @@ body {
     background: #151517;  
 }
 .add-new-btn {
+    display: inline-block;
+    width: 18%;
     color: #a77c4d;
     height: 100%;
     font-size: large;
