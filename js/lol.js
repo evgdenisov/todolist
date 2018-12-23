@@ -108,7 +108,7 @@ class TodoList extends React.Component {
                         }
                     </ul>
                 </section>
-                <section>
+                <section className='add-new-wrap'>
                 <input className='add-new' type='text' onKeyUp={this.enterSubmit.bind(this)}/>
                 <a className='add-new-btn' onClick={this.btnClick.bind(this)} > add </a>
                 </section>

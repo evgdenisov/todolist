@@ -18,9 +18,15 @@ body {
 .wrap {
     width: 40%;
     display: inline-block;
-    margin-bottom: 5%;
     vertical-align: top;
 }
+
+.add-new-wrap {
+    display: inline-block;
+    border-bottom: 2px solid #a77c4d;
+    margin-bottom: 1%;
+}
+
 .title {
     display: inline-block;
     width: 65%;
@@ -56,14 +62,14 @@ body {
     padding: 0px;
     border: none;
     color: #a77c4d;
-    border-bottom: 2px solid #a77c4d;
     background: #151517;  
 }
 .add-new-btn {
-    border-bottom: 2px solid #a77c4d;
     color: #a77c4d;
     height: 100%;
+    font-size: large;
 }
 .add-new-btn:hover {
     cursor: pointer;
 }
+
